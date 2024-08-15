@@ -42,7 +42,7 @@ npm i -g vscode-langservers-extracted
 
 #### 2. Configura LSP en init.lua
 
-En init.lua:
+En **init.lua**:
 
 ```lua
 require('lspconfig').eslint.setup {
@@ -66,7 +66,7 @@ require('lspconfig').eslint.setup {
 
 #### 3. Crear en el la raíz de proyecto el .eslintrc.json
 
-Por ultimo no olvidar de crear un archivo .eslintrc.json con esto en su interior:
+Por ultimo no olvidar de crear un archivo **.eslintrc.json** con esto en su interior:
 
 ```JSON
 {
@@ -78,7 +78,7 @@ Por ultimo no olvidar de crear un archivo .eslintrc.json con esto en su interior
 #### Opcional si tienes Prettier
 
 Para que no haya conflictos entre prettier y standadjs crear en la raíz del proyecto
-un archivo .prettierignore con el siguiente contenido
+un archivo **.prettierignore** con el siguiente contenido
 
 ```prettierignore
 *.js
