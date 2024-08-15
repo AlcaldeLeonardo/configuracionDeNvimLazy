@@ -78,7 +78,7 @@ Por ultimo no olvidar de crear un archivo .eslintrc.json con esto en su interior
 #### Opcional si tienes Prettier
 
 Para que no haya conflictos entre prettier y standadjs crear en la raíz del proyecto
-un archivo .pretierignore con el siguiente contenido
+un archivo .prettierignore con el siguiente contenido
 
 ```prettierignore
 *.js
