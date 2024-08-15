@@ -8,7 +8,7 @@
       - [1. Instalar dependencias](#1-instalar-dependencias)
         - [Opcional si ya lo tienes instalado](#opcional-si-ya-lo-tienes-instalado)
       - [2. Configura LSP en init.lua](#2-configura-lsp-en-initlua)
-      - [3. Crear en el la raíz de proyecto el .eslintre.json](#3-crear-en-el-la-raíz-de-proyecto-el-eslintrejson)
+      - [3. Crear en el la raíz de proyecto el .eslintrc.json](#3-crear-en-el-la-raíz-de-proyecto-el-eslintrcjson)
         - [Opcional si tienes Prettier](#opcional-si-tienes-prettier)
 
 <!--toc:end-->
@@ -22,25 +22,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 Para configurarlo en NeoVim con StandardJs apliqué en consola estas instalaciones:
 
-#### 1. Instalar dependencias
-
-```bash
-npm install eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise --save-dev
-```
-
-Cada programa que se instala es necesario para usar lo
-principal de standardJs, no saltear ninguno.
-
-##### Opcional si ya lo tienes instalado
-
-También para tener a disposición `EslintFixAll` que luego escribiréen
-en la configuración de LSP debo escribir:
-
-```bash
-npm i -g vscode-langservers-extracted
-```
-
-#### 2. Configura LSP en init.lua
+#### 1. Configura LSP en init.lua
 
 En **init.lua**:
 
@@ -64,6 +46,24 @@ require('lspconfig').eslint.setup {
 }
 ```
 
+##### Opcional si no lo tienes instalado
+
+También para tener a disposición `EslintFixAll` que luego escribiréen
+en la configuración de LSP debo escribir:
+
+```bash
+npm i -g vscode-langservers-extracted
+```
+
+#### 2. Instalar dependencias en raíz de proyecto
+
+```bash
+npm install eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise --save-dev
+```
+
+Cada programa que se instala es necesario para usar lo
+principal de standardJs, no saltear ninguno.
+
 #### 3. Crear en el la raíz de proyecto el .eslintrc.json
 
 Por ultimo no olvidar de crear un archivo **.eslintrc.json** con esto en su interior:
@@ -84,5 +84,5 @@ un archivo **.prettierignore** con el siguiente contenido
 *.js
 ```
 
-Esto provoca que tenga a mi disposición el Standard de JavaScript y la posibilidad
+Esta configuracion habilita en mi proyecto el Standard de JavaScript y la posibilidad
 de formatear y corregir el código al guardar.
