@@ -48,8 +48,8 @@ require('lspconfig').eslint.setup {
 
 ##### Opcional si no lo tienes instalado
 
-También para tener a disposición `EslintFixAll` que luego escribiréen
-en la configuración de LSP debo escribir:
+Para tener a disposición `EslintFixAll` que escribo
+en la configuración de LSP debo instalar con `npm`:
 
 ```bash
 npm i -g vscode-langservers-extracted
