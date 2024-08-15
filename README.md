@@ -24,7 +24,7 @@ npm install eslint-config-standard eslint-plugin-import eslint-plugin-node eslin
 Cada programa que se instala es necesario para usar lo
 principal de standardJs, no saltear ninguno.
 
-##### Opcional si ya lo tienes instalado
+##### Opcional si ya lo tienes instalado:
 
 También para tener a disposición `EslintFixAll` que luego escribiréen
 en la configuración de LSP debo escribir:
