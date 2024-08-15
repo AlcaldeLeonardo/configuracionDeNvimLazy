@@ -3,8 +3,15 @@
 <!--toc:start-->
 
 - [💤 LazyVim](#💤-lazyvim)
-  - [Configuracion Personal De NvimLazy](#configuracion-personal-de-nvimlazy) - [Configuraciones de Eslint en NeoVim](#configuraciones-de-eslint-en-neovim) - [1. Instalar dependencias](#1-instalar-dependencias) - [Opcional si ya lo tienes instalado](#opcional-si-ya-lo-tienes-instalado) - [2. Configura LSP en init.lua](#2-configura-lsp-en-initlua) - [3. Crear en el la raíz de proyecto el .eslintre.json](#3-crear-en-el-la-raíz-de-proyecto-el-eslintrejson) - [Opcional si tienes Prettier](#opcional-si-tienes-prettier)
-  <!--toc:end-->
+  - [Configuracion Personal De NvimLazy](#configuracion-personal-de-nvimlazy)
+    - [Configuraciones de Eslint en NeoVim](#configuraciones-de-eslint-en-neovim)
+      - [1. Instalar dependencias](#1-instalar-dependencias)
+        - [Opcional si ya lo tienes instalado](#opcional-si-ya-lo-tienes-instalado)
+      - [2. Configura LSP en init.lua](#2-configura-lsp-en-initlua)
+      - [3. Crear en el la raíz de proyecto el .eslintre.json](#3-crear-en-el-la-raíz-de-proyecto-el-eslintrejson)
+        - [Opcional si tienes Prettier](#opcional-si-tienes-prettier)
+
+<!--toc:end-->
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
@@ -24,7 +31,7 @@ npm install eslint-config-standard eslint-plugin-import eslint-plugin-node eslin
 Cada programa que se instala es necesario para usar lo
 principal de standardJs, no saltear ninguno.
 
-##### Opcional si ya lo tienes instalado:
+##### Opcional si ya lo tienes instalado
 
 También para tener a disposición `EslintFixAll` que luego escribiréen
 en la configuración de LSP debo escribir:
