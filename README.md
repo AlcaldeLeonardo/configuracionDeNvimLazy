@@ -64,7 +64,7 @@ require('lspconfig').eslint.setup {
 }
 ```
 
-#### 3. Crear en el la raíz de proyecto el .eslintre.json
+#### 3. Crear en el la raíz de proyecto el .eslintrc.json
 
 Por ultimo no olvidar de crear un archivo .eslintrc.json con esto en su interior:
 
