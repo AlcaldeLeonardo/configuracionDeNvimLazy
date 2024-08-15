@@ -2,8 +2,6 @@
 require("config.lazy")
 require("config.set")
 
-
-
 require('lspconfig').eslint.setup {
   settings = {
     validate = "on",
