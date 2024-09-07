@@ -19,3 +19,7 @@ require('lspconfig').eslint.setup {
     })
   end,
 }
+
+require("codeium").setup({
+  enable_chat = true,
+})
