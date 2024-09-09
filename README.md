@@ -16,6 +16,12 @@
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
+## Instalacion
+
+```bash
+git clone https://github.com/AlcaldeLeonardo/configuracionDeNvimLazy.git ~/.config/nvim
+```
+
 ## Configuracion Personal De NvimLazy
 
 ### Configuraciones de Eslint en NeoVim
