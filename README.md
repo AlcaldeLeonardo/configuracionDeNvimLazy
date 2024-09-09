@@ -15,6 +15,7 @@
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+
 ## Pre Requisitos
 
 Los mismos requisitos para instalar LazyVim, consultar en la [página oficial](https://www.lazyvim.org/)
@@ -24,6 +25,7 @@ Los mismos requisitos para instalar LazyVim, consultar en la [página oficial](h
 ```bash
 git clone https://github.com/AlcaldeLeonardo/configuracionDeNvimLazy.git ~/.config/nvim
 ```
+
 Remueve la carpeta .git para luego poder agregar a tu propio repositorio las configuraciones
 que quieras hacer luego luego
 
