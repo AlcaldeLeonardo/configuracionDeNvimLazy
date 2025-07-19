@@ -1,6 +1,6 @@
 --configuracion de colorscheme catppuccin
 require("catppuccin").setup({
-  transparent_background = true,
+  transparent_background = false,
 })
 
 --subtema de colorscheme elegido

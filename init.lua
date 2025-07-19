@@ -2,7 +2,7 @@
 require("config.lazy")
 require("config.set")
 
-require('lspconfig').eslint.setup {
+require("lspconfig").eslint.setup({
   settings = {
     validate = "on",
     codeAction = {
@@ -18,8 +18,9 @@ require('lspconfig').eslint.setup {
       end,
     })
   end,
-}
-
-require("codeium").setup({
-  enable_chat = true,
 })
+
+-- require("codeium").setup({
+--   enable_chat = true,
+-- })
+
