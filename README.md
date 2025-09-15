@@ -3,15 +3,10 @@
 <!--toc:start-->
 
 - [💤 LazyVim](#💤-lazyvim)
-  - [Configuracion Personal De NvimLazy](#configuracion-personal-de-nvimlazy)
-    - [Configuraciones de Eslint en NeoVim](#configuraciones-de-eslint-en-neovim)
-      - [1. Instalar dependencias](#1-instalar-dependencias)
-        - [Opcional si ya lo tienes instalado](#opcional-si-ya-lo-tienes-instalado)
-      - [2. Configura LSP en init.lua](#2-configura-lsp-en-initlua)
-      - [3. Crear en el la raíz de proyecto el .eslintrc.json](#3-crear-en-el-la-raíz-de-proyecto-el-eslintrcjson)
-        - [Opcional si tienes Prettier](#opcional-si-tienes-prettier)
-
-<!--toc:end-->
+  - [Pre Requisitos](#pre-requisitos)
+  - [Instalacion](#instalacion)
+  - [Configuracion Personal De NvimLazy](#configuracion-personal-de-nvimlazy) - [Configuraciones de Eslint en NeoVim](#configuraciones-de-eslint-en-neovim) - [1. Configura LSP en init.lua](#1-configura-lsp-en-initlua) - [Opcional si no lo tienes instalado](#opcional-si-no-lo-tienes-instalado) - [2. Instalar dependencias en raíz de proyecto](#2-instalar-dependencias-en-raíz-de-proyecto) - [3. Crear en el la raíz de proyecto el .eslintrc.json](#3-crear-en-el-la-raíz-de-proyecto-el-eslintrcjson) - [Opcional si tienes Prettier](#opcional-si-tienes-prettier)
+  <!--toc:end-->
 
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
