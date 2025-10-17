@@ -251,6 +251,19 @@ return {
         end,
         header = elegirCarpincho(),
       },
+      sections = {
+        { section = "header" },
+        { section = "startup", padding = 1 },
+        {
+          pane = 2,
+          {
+            section = "keys",
+            padding = 1,
+            gap = 1,
+          },
+          { title = "Recent Files", section = "recent_files", padding = 1, indent = 2 },
+        },
+      },
     },
   },
 }
