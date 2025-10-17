@@ -257,11 +257,13 @@ return {
         {
           pane = 2,
           {
+            title = "Key Maps",
             section = "keys",
             padding = 1,
-            gap = 1,
+            indent = 2,
           },
           { title = "Recent Files", section = "recent_files", padding = 1, indent = 2 },
+          { title = "Recent Projects", section = "projects", padding = 1, indent = 2 },
         },
       },
     },
