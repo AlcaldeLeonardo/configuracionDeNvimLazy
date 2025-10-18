@@ -229,9 +229,9 @@ local carpinchitoDurmiendo = [[
 
 M.carpinchoLEAG = carpinchoLEAG
 M.carpinchoVolador = carpichoVolador
+M.carpinchoHacker = carpinchoHacker
 M.dosCarpinchitos = dosCarpinchitos
 M.tresCarpinchitos = tresCarpinchitos
 M.carpinchito = carpinchito
 M.carpinchitoDurmiendo = carpinchitoDurmiendo
-
 return M
