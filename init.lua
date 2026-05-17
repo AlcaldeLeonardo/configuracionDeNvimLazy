@@ -19,3 +19,6 @@ require("lspconfig").eslint.setup({
     })
   end,
 })
+
+vim.opt.list = false
+vim.opt.listchars = "eol:↵,tab:▸ ,trail:·,nbsp:␣"

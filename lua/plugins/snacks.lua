@@ -8,7 +8,7 @@ local function elegirCarpincho()
   elseif hora >= 12 and hora < 15 then
     return m.carpinchoLechuga
   elseif hora >= 15 and hora < 18 then
-    return m.tresCarpinchitos
+    return m.carpinchoLEAG
   elseif hora >= 18 and hora < 20 then
     return m.carpinchoHacker
   else
